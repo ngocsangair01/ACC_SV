@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/background_so01"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/vienmo2"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_centerInParent="true"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:gravity="center"
+                android:textSize="35dp"
+                android:textColor="#FFB702"
+                />
+            <EditText
+                android:id="@+id/taikhoan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:hint="Tài khoản"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+            <EditText
+                android:id="@+id/matkhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:password="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                />
+            <CheckBox
+                android:id="@+id/singin_luumk"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lưu mật khẩu"/>
+            <Button
+                android:id="@+id/singin_dangnhap"
+                android:paddingRight="150dp"
+                android:paddingLeft="150dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Đăng nhập"
+                android:background="@drawable/vienmo"
+                android:gravity="center"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="30dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:id="@+id/singin_quenmk"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:text="Quên mật khẩu"
+                    android:textSize="15dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/vien_kc_vang_exit"
+                    android:textColor="@color/black"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+            <Button
+                android:id="@+id/singin_thoat"
+                android:layout_width="76dp"
+                android:layout_height="76dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/vien_kc_vang_exit"
+                android:text="X"
+                android:textSize="40sp"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+</LinearLayout>

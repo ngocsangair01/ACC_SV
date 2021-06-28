@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@mipmap/background_so02"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        >
+        <TextView
+            android:id="@+id/thang_diemdanh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="11.3"
+            android:background="@color/tab"
+            android:gravity="center"
+            android:text="Hướng dẫn"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/thoat_hd"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/vien_kc_vang_exit"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/lv_thongke"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:text="Chào mừng các shinobi gia nhập với thế giới nhẫn giả của Naruto-dattebayo \n
+        Tham gia vào trò chơi, các bạn sẽ được nhập vai là các Kage. Nhiệm vụ của bạn là xây dựng làng của mình và sở hữu những nhẫn giả mạnh mẽ cùng các vĩ thú để đi chinh phục các làng khác \n
+        Hãy cùng xây dựng một làng nhẫn giả thật mạnh mẽ nào \n
+        \nLuật chơi như sau
+        \nCác lá bài trong game được chia thành 6 hệ: lửa,nước,đất,sét,gió. Mỗi hệ sẽ có 1 loại chiến thuật khác nhau tùy cách người chơi kết hợp chọn cách kết hợp thành 1 cỗ bài.
+        Mỗi bộ bài có 40 lá nhưng bạn chỉ có thể sử dùng lá bài từ 2 hệ cùng 1 lúc. Người chơi sẽ bắt đầu với 20 điểm, bạn lần lượt tấn công kết hợp với phòng thủ của mình bằng mana, ai xuống mức 0 điểm trước sẽ thua. Cụ thể bạn và đối thủ sẽ luân phiên tấn công. Khi đến lượt đối thủ tấn công thì bạn vẫn có thể phản đòn bằng những lá bài phép (spell). Mỗi lá bài sẽ tiêu tốn 1 lượng mana dựa trên con số tiêu tốn ở góc bên trái. Để sử dụng một thẻ bài, bạn phải tiêu tốn mana tương ứng với thẻ bài đó, và mỗi người chơi chỉ có một lượng mana nhất định cho mỗi vòng đấu.
+        Càng qua vòng đấu mới, lượng mana nhận được lại tăng dần lên, cho phép người chơi sử dụng những thẻ bài mạnh hơn hoặc sử dụng kết hợp cùng lúc nhiều thẻ bài trong một lượt. Tướng và quân lính đồng minh trong game có chỉ số Tấn công và một lượng Máu nhất định, bạn cần căn cứ vào đó để tính toán, giao tranh với đối thủ sao cho mang về được lợi thế.
+        \nVí dụ: một quân lính của bạn có chỉ số là 3 Tấn công và 3 Máu, khi giao tranh với quân lính của đối thủ cũng có chỉ số tương tự 3 Tấn công và 3 Máu thì cả hai sẽ cùng bị hạ gục.
+        Còn nếu quân lính của bạn có 3 Tấn công và 4 Máu thì nó sẽ sống sót với 1 Máu còn lại.
+        Còn các thẻ bài phép thuật có rất nhiều tác dụng khác nhau, bạn có thể dùng để hỗ trợ các quân lính giao tranh tốt hơn, như là giúp tăng thêm máu cho đồng minh, gây thêm sát thương cho đối thủ, làm choáng hay đóng băng đối thủ,…
+        Mỗi con tướng sẽ có các điều kiện nâng cấp khác nhau trong trận đấu, mỗi tướng khi được nâng cấp thì sức mạnh sẽ được tăng đáng kể."
+        android:textColor="@color/white"
+        android:gravity="center"
+        />
+
+</LinearLayout>

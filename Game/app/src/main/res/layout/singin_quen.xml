@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/sing">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1.4"
+            android:background="@drawable/vienmo2"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Quên mật khẩu"
+                android:textColor="#F1AF09"
+                android:textSize="35dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Tài khoản"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Mã lấy lại mật khẩu"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:hint="Mật khẩu mới"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:hint="Xác nhận mật khẩu mới"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                />
+
+            <Button
+                android:id="@+id/singinquen_laymk"
+
+                android:paddingRight="150dp"
+                android:paddingLeft="150dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/vienmo"
+                android:gravity="center"
+                android:text="Xác Nhận" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/singinquen_thoat"
+            android:layout_width="76dp"
+            android:layout_height="76dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/vien_kc_vang_exit"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

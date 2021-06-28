@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:background="@mipmap/background_so02"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="12"
+        >
+        <TextView
+            android:id="@+id/thang_diemdanh"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="11.3"
+            android:background="@color/tab"
+            android:gravity="center"
+            android:text="Lịch sử"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/thoat_thongke"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:background="@drawable/vien_kc_vang_exit"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_thongke"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        >
+
+    </ListView>
+
+</LinearLayout>

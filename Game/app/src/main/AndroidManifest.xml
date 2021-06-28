@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="truongkaiyvo.pat.com.ecec">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".config.ChatApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logogame"
+        android:label="Dattebayo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.DauMayActivity"
+            android:screenOrientation="landscape"
+            ></activity>
+        <activity android:name=".activity.ChonTheDauMayActivity"
+            android:screenOrientation="landscape"
+            />
+        <activity
+            android:name=".activity.TaoPhongActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.TimTranActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ChonDauActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.SingUp"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.SingIn"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.SingInQuen"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ManHinhChinhActivity"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ThongKe"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Shop"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Frined"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.TuiDo"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.NangCap"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.User"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Mail"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.DiemDanh"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.ThongBao"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.Gifcode"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.HuongDan"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.CaiDat"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
